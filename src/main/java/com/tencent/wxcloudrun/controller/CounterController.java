@@ -88,6 +88,6 @@ public class CounterController {
   ApiResponse get() {
     logger.info("/api/test get request");
 
-    return ApiResponse.ok('测试接口调用成功！');
+    return ApiResponse.ok('测试接口调用成功了！');
   }
 }
