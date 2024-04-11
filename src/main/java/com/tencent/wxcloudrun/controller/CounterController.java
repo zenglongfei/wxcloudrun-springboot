@@ -79,16 +79,4 @@ public class CounterController {
       return ApiResponse.error("参数action错误");
     }
   }
-  
-  /**
-   * 测试接口
-   * @return API response json
-   */
-  @GetMapping(value = "/api/test")
-  ApiResponse get() {
-    logger.info("/api/test get request");
-    String txt = "测试接口调用成功了！";
-
-    return ApiResponse.ok(txt);
-  }
 }
