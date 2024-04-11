@@ -87,7 +87,7 @@ public class CounterController {
   @GetMapping(value = "/api/test")
   ApiResponse get() {
     logger.info("/api/test get request");
-    String txt = "测试接口调用成功了！"
+    String txt = "测试接口调用成功了！";
 
     return ApiResponse.ok(txt);
   }
